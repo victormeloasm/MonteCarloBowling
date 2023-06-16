@@ -1,7 +1,14 @@
 
-# Bowling Game Simulation
+# Bowling Game Simulation O(n)
 
 This repository contains a Monte Carlo simulation of a bowling game. The objective is to estimate the expected number of rolls required to knock down all the pins and complete a game of bowling.
+
+The exercise: You have a bowl with a white (W) and a black (B) ball (you cannot look into the bowl). You draw one ball blind. If it is the white one, the game is finished. If it is a black one, you add another black one, shake the bowl and draw again etc.
+
+Write a small Monte-Carlo simulation to compute the expected value of how long this game will run in the mean. A game could look like W, or B W, or B B B B B B ... B W etc. 
+
+Observe how the mean changes with the number of simulation runs you make. Don't forget - for every draw that does not yield the white ball you add an additional black one.
+Can you make a logarithmic plot with the number of iterations on the x-axis (1, 10, 100, 1000, 10000, etc.) and the mean value on the y-axis?
 
 ## Problem Description
 
